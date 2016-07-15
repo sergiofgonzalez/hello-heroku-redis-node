@@ -1,0 +1,40 @@
+{
+  "name": "hello-heroku-redis-node",
+  "version": "1.0.0",
+  "description": "Basic example of Redis using Node.js and targetting Heroku",
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiofgonzalez/hello-heroku-redis-node.git"
+  },
+  "keywords": [
+    "Redis",
+    "Node.js"
+  ],
+  "author": {
+    "name": "Sergio F. Gonzalez",
+    "email": "sergio.f.gonzalez@accenture.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-jshint": "1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-tape": "0.1.0",
+    "jshint-stylish": "2.2.0",
+    "tape": "4.6.0"
+  },
+  "dependencies": {
+    "log4js": "0.6.37",
+    "nconf": "0.8.4",
+    "redis": "2.6.2"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node build/index.js"
+  }
+}
